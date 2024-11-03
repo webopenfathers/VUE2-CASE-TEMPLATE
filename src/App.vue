@@ -1,18 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <graphChart1 /> -->
+    <graphChart2 />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import graphChart1 from './components/graphChart1.vue'
+
+import graphChart2 from './components/graphChart2.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    // graphChart1,
+    graphChart2,
+  },
 }
 </script>
 
